@@ -1,2 +1,2 @@
 # I'm loud and obnoxious
-# I like music and rhymes
+# I like music that rhymes
