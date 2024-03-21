@@ -1,0 +1,210 @@
+Systemy operacyjne
+
+Karta opisu przedmiotu
+Informacje podstawowe
+Kierunek studiow
+Informatyka (kierunek wspolny - WI)
+Specjalnosc
+-
+Jednostka organizacyjna
+Wydzial Informatyki
+Poziom ksztalcenia
+Studia inzynierskie I stopnia
+Forma studiow
+Stacjonarne
+Profil studiow
+Ogolnoakademicki
+Cykl dydaktyczny
+2023/2024
+Kod przedmiotu
+Jezyki wykladowe
+polski
+Obligatoryjnosc
+Obowiazkowy
+Blok zajeciowy
+Przedmioty ogolne
+Przedmiot powiazany z badaniami naukowymi
+Tak
+Koordynator przedmiotu
+Leszek Kotulski
+Prowadzacy zajecia
+Jaroslaw Kozlak, Marcin Kurdziel, Leszek Siwik, Leszek Kotulski
+Okres
+Semestr 4
+
+Forma zaliczenia
+Egzamin
+Forma prowadzenia i godziny zajec
+Wyklad: 30
+Cwiczenia laboratoryjne: 30
+
+Liczba punktow ECTS
+5
+Cele ksztalcenia dla przedmiotu
+C1 Zapoznanie studentow z zasadami funkcjonowania systemow operacyjnych oraz metodami ich budowy
+Efekty uczenia sie dla przedmiotu
+Kod Efekty w zakresie Kierunkowe efekty uczenia sie Metody weryfikacji
+Wiedzy – Student zna i rozumie:
+W1 Student zna i rozumie podstawowe pojecia problemow synchronizacji, stosowane mechanizmy synchronizacji, algorytmy zapobiegania zakleszczeniom i unikania. INF1A_W05 Egzamin
+W2 Student zna i rozumie strukture i funkcje procesow i watkow oraz ich metody zarzadzania przez system operacyjny. INF1A_W05 Egzamin
+W3 Student zna i rozumie schematy organizacyjne pamieci i pamieci wirtualnej w systemach operacyjnych. INF1A_W05 Egzamin
+W4 Student zna i rozumie podstawy wykorzystania segmentow do dynamicznego lacz
+na modulow, dynamicznego procesu laczacego, struktury procesu realizowanego przez system operacyjny. INF1A_W05 Egzamin
+Umiejetnosci – Student potrafi:
+U1 Student potrafi zaprojektowac i wykonac oprogramowanie z wykorzystaniem mechanizmow systemowych. INF1A_U07 Wykonanie cwiczen laboratoryjnych, Projekt, Wynik testu zaliczeniowego
+Tresci programowe zapewniajace uzyskanie efektow uczenia sie dla modulu zajec
+
+Student ma uporzadkowana wiedze w zakresie systemow operacyjnych, zasad ich dzialania, podstawowych problemow zwiazanych z zarzadzaniem zasobami systemu komputerowego i algorytmow ich rozwiazywania
+Naklad pracy studenta
+Rodzaje zajec studenta Srednia liczba godzin* przeznaczonych na zrealizowane aktywnosci
+Wyklad 30
+Cwiczenia laboratoryjne 30
+Samodzielne studiowanie tematyki zajec 40
+Dodatkowe godziny kontaktowe 5
+Przygotowanie projektu, prezentacji, pracy pisemnej, sprawozdania 30
+Laczny naklad pracy studenta
+Liczba godzin
+135
+Liczba godzin kontaktowych
+Liczba godzin
+60
+
+    godzina (lekcyjna) oznacza 45 minut
+    Tresci programowe
+    Lp. Tresci programowe Efekty uczenia sie dla przedmiotu Formy prowadzenia zajec
+
+    Podstawowe uzywane narzedzia programistyczne, kompilacja i sledzenie dzialania programu ( g++/gcc, make i gdb)
+
+    Zarzadzanie pamiecia. Biblioteki statyczne i dynamiczne. Przydatne funkcje. Pomiar czasu
+
+    Operacje na plikach i katalogach
+
+    Tworzenie procesow. Srodowisko procesu. Sterowanie procesami.
+
+    Komunikacja miedzyprocesowa: sygnaly
+
+    Kolokwium I. Przydzial tematow miniprojektow i dyskusja ich zakresow.
+
+    Komunikacja miedzyprocesowa: Potoki nazwane i nienazwane
+
+    Komunikacja miedzyprocesowa: Kolejki komunikatow (IPC & Posix)
+
+    Komunikacja miedzyprocesowa: Semafory i pamiec wspolna (IPC & Posix)
+
+    Podstawy obslugi watkow - interfejs programistyczny
+
+    Synchronizacja w aplikacjach wielowatkowych
+
+    Komunikacja miedzyprocesowa: Sokety
+
+    Kolokwium II Dyskusja tematow mini projektow
+
+    Prezentacje miniprojektow
+    W1, W2, W4, U1 Cwiczenia laboratoryjne
+
+Pierwsze dwa wyklady (4 godz.) sa ogolnym wprowadzeniem, obejmujacym takie zagadnienia jak:
+• rola i zadania systemu operacyjnego,
+• umiejscowienie systemu operacyjnego (w szczegolnosci jadra) w strukturze oprogramowania systemu komputerowego, architektura mikrojadra.
+• klasyfikacja systemow operacyjnych (scentralizowany, sieciowy, rozproszony),
+• ogolna zasada dzialania systemu operacyjnego (sposob przekazywania sterowania do programu jadra),
+• koncepcja procesu, zasobu i watku; watki poziomu uzytkownik, watki jadra, procesy lekkie, modele wielowatkowosci.
+
+Kolejny wyklady (2 godz.) dotyczy planowania przydzialu procesora, czyli szeregowania zadan:
+• omowienia ogolnej koncepcji planowania.
+• algorytmy planowania z wywlaszczaniem i bez wywlaszczen oraz kryteria ich oceny.
+• rozwiazania w zakresie szeregowania zadan (procesow lub watkow) we wspolczesnych systemach operacyjnych
+, czyli tradycyjnym systemie UNIX, systemie Linux oraz systemie Windows.
+
+Kolejne trzy wyklady (6 godz.) poruszaja zagadnienia przetwarzania wspolbieznego i synchronizacji procesow.
+Poczatkowo omawiaja te zagadnienia na poziomie architektury, bez istotnego wsparcia ze strony systemu operacyjnego (poza realizacja koncepcji procesu). W zakresie tego modulu mieszcza sie wiec takie zagadnienia, jak: pojecie instrukcji atomowej oraz przeplotu, istota synchronizacji oraz poprawnosc programow wspolbieznych (bezpieczenstwo i zywotnosc). Pojecia te ilustrowane sa przykladowymi rozwiazaniami problemu wzajemnego wykluczania, obejmujacymi algorytm Petersona, algorytm Lamporta oraz rozwiazania opierajace sie na instrukcjach atomowych test&set i exchange.
+Nastepnie omowione sa mechanizmy synchronizacji wspierane przez system operacyjny lub jezyk programowania wysokiego poziomu:
+o semafory -- ich klasyfikacje i implementacje,
+o mechanizmy standardu POSIX -- rygle i zmienne warunkowe,
+o monitory i regiony krytyczne.
+Przyklady zastosowania wymienionych mechanizmow pokazano w rozwiazaniach klasycznych problemow synchronizacji: producenta i konsumenta, czytelnikow i pisarzy, pieciu filozofow, spiacych fryzjerow oraz implementacji semafora uogolnionego przy pomocy semaforow binarnych.
+Na zakonczenie omawiane sa mechanizmy synchronizacji w srodowisku rozproszonym: komunikaty, zdalne wywolania procedury/metody oraz rendezvous.
+
+Kolejny wyklad (2 godz.) poswiecony jest zakleszczeniu -- opisowi samego zjawiska i omowieniu metod przeciwdzialania. Przedstawione sa: warunki konieczne zakleszczenia w kontekscie zasobow odzyskiwalnych i nieodzyskiwalnych, definicja zakleszczenia, opis stanu systemu na potrzeby analizy zakleszczenia -- graf przydzialu i graf oczekiwania oraz ich specyficzne wlasnosci. Jezeli chodzi o przeciwdzialanie, omowione sa nastepujace podejscia: zapobieganie zakleszczeniom, unikanie zakleszczen (w tym algorytm bankiera), detekcja stanu zakleszczenia i krotko zasady usuwania.
+
+W kolejnych dwoch wykladach (4 godz.) omawiane sa zagadnienia zarzadzania pamiecia. Pierwszy z modulow koncentruje sie na zarzadzaniu pamiecia operacyjna, obejmujacym: podzial pamieci, przydzial pamieci oraz transformacje adresow, w szczegolnosci w systemie pamieci stronicowanej i segmentowanej. Przy tej okazji omawiane jest zjawisko fragmentacji wewnetrznej i zewnetrznej, a takze poruszany jest problem ochrony oraz wspoldzielenia pamieci. Drugi modul dotyczy realizacji pamieci wirtualnej (stronicowania i segmentacji). Omawiane jest zjawisko bledu strony, jego obsluga i podstawowe problemy z tym zwiazane, tj. problem wymiany stron i problem wznawiania rozkazow. Wieksza czesc modulu poswiecona jest algorytmom wymiany -- ich klasyfikacji, dzialaniu, zastosowaniom oraz zagadnieniom implementacyjnym.
+
+Kolejny wyklad (2 godz.) dotyczy wykorzystania segmentow w czasie wykonywania programow przez system operacyjny oraz postaci programu w czasie przetwarzania przez kompilator/asembler, program laczacy, program ladujacy, moduly programow.
+
+Nastepny (2 godz.) omawia postac modulow, program laczacy, proces laczenia statycznego, program ladujacy, proces ladowania programu do pamieci, segment programu.
+
+Modularna postac programu w pamieci, problem laczenia dynamicznego, obiekty wewnetrzne, remanentne, zewnetrzne, sposoby laczenia dynamicznego jest przedmiotem kolejnego wykladu (2 godziny).
+
+W nastepnym wykladzie (2 godz.) omowione zostana:
+o Laczenie dynamiczne, srodowisko segmentow wykonywania procesu, przyklady dolaczania modulow w czasie wykonywania, postac modulu ,,object" przy laczeniu dynamicznym.
+o System plikow. Budowa plikow i katalogow. Przydzial miejsca na dysku.
+
+W kolejnym wykladzie (2 godz.) omowione zostana:
+o zarzadzanie wejsciem-wyjsciem.
+o Rola sterownikow urzadzen.
+
+Ostatnim wykladem (2 godz) jest wyklad podsumowujacy.
+W1, W2, W3, W4 Wyklad
+Informacje rozszerzone
+Metody i techniki ksztalcenia:
+
+Rodzaj zajec Metody zaliczenia Warunki zaliczenia przedmiotu
+Wyklad Egzamin
+Cwiczenia laboratoryjne Wykonanie cwiczen laboratoryjnych, Projekt, Egzamin, Wynik testu zaliczeniowego
+Dodatkowy opis
+
+Wyklady z przedmiotu beda prowadzone w sposob zdalny z wykorzystaniem platformy Webex/Teams.
+
+Pozostale zajecia beda odbywac sie w salach. Dotyczy to takze zaliczen i egzaminow odbywajacych sie w sesjach egzaminacyjnych.
+
+Warunki i sposob zaliczenia poszczegolnych form zajec, w tym zasady zaliczen poprawkowych, a takze warunki dopuszczenia do egzaminu
+
+W przypadku nieobecnosci na kolokwiach, student jest zobowiazany do zaliczenia odpowiedniego materialu w trakcie kolokwium zaliczeniowego. Warunkiem przystapienia do egzaminu jest uzyskanie zaliczenia.
+
+Sposob obliczania oceny koncowej
+
+    Aby uzyskac pozytywna ocene koncowa niezbedne jest uzyskanie pozytywnej oceny z laboratorium (kolokwium) oraz zaliczenia testu (egzamin) z czesci wykladowej. 2. Obliczamy srednia arytmetyczna (sr) z ocen z zaliczenia laboratorium i wykladow, uzyskanych we wszystkich terminach. 3. Wyznaczmy ocene koncowa na podstawie zaleznosci: if sr>4.75 then OK:=5.0 else if sr>4.25 then OK:=4.5 else if sr>3.75 then OK:=4.0 else if sr>3.25 then OK:=3.5 else OK:=3
+
+Sposob i tryb wyrownywania zaleglosci powstalych wskutek nieobecnosci studenta na zajeciach
+
+Wyrownywanie zaleglosci powstalych przez nieobecnosc studenta na zajeciach: Jesli student opusci dane zajecia to moze brac udzial w zajeciach dla innej grupy. Jesli jest to niemozliwe, student jest zobowiazany do samodzielnego uzupelnienia wiedzy.
+
+Wymagania wstepne i dodatkowe
+
+Umiejetnosc programowania w jezyku C++ w dowolnym systemie.
+
+Zasady udzialu w poszczegolnych zajeciach, ze wskazaniem, czy obecnosc studenta na zajeciach jest obowiazkowa
+
+Wyklad
+ Studenci uczestnicza w zajeciach poznajac kolejne tresci nauczania zgodnie z syllabusem przedmiotu. Studenci winni na biezaco zadawac pytania i wyjasniac watpliwosci. Rejestracja audiowizualna wykladu wymaga zgody prowadzacego. Cwiczenia laboratoryjne: Studenci wykonuja cwiczenia laboratoryjne zgodnie z materialami udostepnionymi przez prowadzacego. Student jest zobowiazany do przygotowania sie w przedmiocie wykonywanego cwiczenia, co moze zostac zweryfikowane kolokwium w formie ustnej lub pisemnej. Zaliczenie zajec odbywa sie na podstawie zaprezentowania rozwiazania postawionego problemu. Zaliczenie modulu jest mozliwe po zaliczeniu wszystkich zajec laboratoryjnych.
+
+Literatura
+Obowiazkowa
+
+    Abraham Silberschatz, Peter B. Galvin, "Podstawy systemow operacyjnych", WNT, 2005 (wyd. 6 zmienione), --, A. Silberschatz, P.B. Galvin, G. Gagne. ,,Operating System Concepts. Eighth Edition", John Wiley & Sons Inc, 2009
+    A.S. Tanenbaum: Strukturalna organizacja systemow komputerowych, Helion 2006.
+    M. Rochkind: Programowanie w systemie UNIX dla zaawansowanych, WNT 2007.
+    M. Ben-Ari: Podstawy programowania wspolbieznego i rozproszonego, WNT 1996.
+    William Stallings, ,,Systemy operacyjne", 2006, --, William Stallings, ,,Operating Systems. Internals and Design Principles". Ninth Edition, Pearson Prentice Hall, 2017
+    Iszkowski, M. Maniecki "Programowanie wspolbiezne", Wydawnictwo Naukowo-Techniczne, Warszawa 1982.
+    W. Richard Stevens, ,,Programowanie w srodowisku systemu Unix", WNT, 2002., -, W. Richard Stevens, Stephen A. Rago, "Advanced programming in the Unix Environment", Third Edition, Addison Wesley Publishing Company, 2013
+    Mark Mitchell, Jeffrey Oldham, Alex Samuel, "Linux. Programowanie dla zaawansowanych", Wydawnictwo ReadMe, 2002, -, "Advanced Linux Programming", New Riders Publishing, 2001
+    Michael Kerrisk, A Linux and Unix System Programming Handbook, no starch press. 2010.
+
+Zaawansowana bibliografia
+
+    Andrew S. Tanenbaum, "Modern Operating Systems", Third Edition, Prentice Hall International, 2008
+    Andrew S. Tanenbaum, Albert S. Woodhull, "Operating Systems. Design and Implementation" Prentice-Hall International, Inc., 3rd ed, 2006
+    Thomas W. Doeppner, ,,Operating Systems in Depth", Wiley, 2010
+    Thomas Anderson, Michael Dahlin, ,,Operating Systems. Principles & Practice", Second Edition, 2011-2014
+    Uresh Vahalia, ,,Jadro systemu Unix...", WNT 2001
+    Robert Love, ,,Linux Kernel Development", Novel Press, Third edition, 2010
+    Z. Weiss, T. Gruzlewski "Programowanie wspolbiezne i rozproszone w przykladach i zadaniach, Wydawnictwo Naukowo-Techniczne, Warszawa 199
+    W. Richard Stevens, "Unix: Programowanie sieciowe", t1-t2 WNT, 2000,2001
+    Marc J. Rochkind, ,,Advanced UNIX Programming", Addison-Wesley, Second edition, 2004
+
+Badania i publikacje
+Publikacje
+
+    Kotulski L.: Comments on Implementation of P(s) and V(s) Primitives with the Help of Binary Semaphores. Operating System Review, 1988, vol. 22, no. 2, pp. 53-59.
+    Kotulski L.: About the Semantic Nested Monitor Calls. Sigplan Notice, 1987, vol. 22, no. 4, pp. 80-82.
+    Kotulski L.: Time Dependent Errors Exclusion Method in Monitor Structures. Universitas I
