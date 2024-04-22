@@ -38,24 +38,21 @@ void handler(int sig, siginfo_t *siginfo, void *context) {
         exit(0);
     }
 
-    // Możesz tutaj również wysłać potwierdzenie do sendera, jeśli to potrzebne
 }
 
 int main() {
     pid_t pid = getpid();
     printf("Catcher, PID: %d\n", pid);
 
-    // Ustawienie struktury sigaction do obsługi sygnału SIGUSR1
     struct sigaction act;
     memset(&act, 0, sizeof(act));
     act.sa_sigaction = &handler;
-    act.sa_flags = SA_SIGINFO; // Umożliwia użycie siginfo_t w handlerze
+    act.sa_flags = SA_SIGINFO; 
 
     sigaction(SIGUSR1, &act, NULL);
 
     while (1) {
         pause();
-        // Czeka na dowolny sygnał przed kontynuacją
     }
 
     return 0;
