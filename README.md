@@ -1,1 +1,1 @@
-# linux i takie tam
+#  AGH Operating Systems course
